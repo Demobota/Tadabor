@@ -56,3 +56,20 @@ form button{
     padding: 0.5rem 1rem;
     cursor: pointer;
 }
+form>
+button:hover{
+    background-color: #8b6f52;
+}
+form>input:invalid{
+    border-bottom: 
+    0.2rem solid red;
+}
+form>input:focus{
+    outline: none;
+    border-bottom: 
+    0.2rem solid blue;
+}
+form>input:valid{
+    border-bottom: 0.2rem solid green;
+    
+}
