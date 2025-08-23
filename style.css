@@ -1,0 +1,58 @@
+@font-face {
+  font-family: 'Norse Bold';
+  src: url('./fontsrc/norse-bold-webfont.woff2') format('woff2'),
+       url('./fontsrc/norse-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+  background-image: url('./images/bookopen.png');
+  background-repeat: no-repeat;
+  background-position: 15vw 5vw;
+  background-size :70vw auto;/* center horizontally, bottom vertically */
+}
+.logo {
+  font-family: 'Norse Bold', serif; /* fall back to serif */
+    font-size: 4rem;
+}
+.conform{
+    position: relative;
+}
+form {
+
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+form>*{
+    font-family: 'Edu NSW ACT Cursive', cursive;
+  
+}
+form input{
+    background-color: #f0e6d2;
+    border: 0;
+    border-radius: 5px;
+    border-bottom: 
+    0.2rem solid #c4a484;
+}
+form button{
+    background-color: #c4a484;
+    border: 0;
+    border-radius: 5px;
+    border-bottom: 
+    0.2rem solid #8b6f52;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
